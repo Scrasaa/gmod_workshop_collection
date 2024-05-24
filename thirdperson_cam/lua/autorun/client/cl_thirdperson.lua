@@ -1,18 +1,17 @@
-AddCSLuaFile()
 MsgN("[SimpleThirdPerson] Addon successfully loaded.")
 
- --[[
-        DECLERATIONS
---]]
+
+   --     DECLERATIONS
+
 
 local scrw, scrh = ScrW(), ScrH()
 local bThirdPerson = false
 local bReadData = false
 local thirdperson = {}
 
- --[[
-        VGUI - STUFF, just made it simple because im the laziest guy in the world
---]]
+
+       -- VGUI - STUFF, just made it simple because im the laziest guy in the world
+
 
 local function drawMenu()
     local Frame = vgui.Create( "DFrame" )
