@@ -111,9 +111,9 @@ local function drawMenu()
 
 end
 
- --[[
-        HOOKS
---]]
+
+ --       HOOKS
+
 
 hook.Add("OnPlayerChat", "ThirdPersonCommand", function( ply, strText, bTeam, bDead)
     if (ply != LocalPlayer() or !IsValid(ply)) then end
